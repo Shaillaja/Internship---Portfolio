@@ -14,19 +14,6 @@ Contact form: with validation
 Created JSON APIs under /api/*
 External APIs proxied by server 
 
-Project structure:
-.
-├── public/               
-│   ├── index.html          # home
-│   ├── projects.html
-│   ├── skills.html
-│   ├── contact.html
-│   ├── css/styles.css
-│   └── js/                 # main.js, projects.js, skills.js, contact.js
-├── server.js               # Express server + APIs
-├── package.json            # scripts & deps
-└── README.md
-
 Run locally:
 1.Install deps (first time only)
 npm install
