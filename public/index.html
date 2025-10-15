@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Shaillaja Ravi · Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="hero">
+  <div class="info-row">
+  <div class="mini-widget" id="clock" aria-live="polite">--:--</div>
+  <div class="mini-widget" id="weather" aria-live="polite">Loading weather…</div>
+</div>
+
+    <nav class="nav">
+      <a href="index.html" class="brand" aria-label="Shaillaja Ravi">SR</a>
+      <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+	  
+      <div class="links">
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <h1>
+        <span class="hi">Hi, I’m</span>
+        <span class="name">Shaillaja Ravi</span>
+      </h1>
+
+      <!-- Tagline pulled from your resume: ETL/Talend + Oracle + full-stack learning -->
+      <p class="tag">
+        Programmer Analyst · ETL & Data Integration (Talend) · Oracle Reports & Forms · Full-stack learner
+      </p>
+
+      <!-- Bio rewritten from resume for a crisp, modern tone -->
+      <p class="bio">
+        I design reliable data pipelines and practical apps across web, desktop, and mobile. With experience in Talend ETL,
+        Oracle (Reports & Forms), and strong SQL/PL-SQL, I’m currently expanding into PHP, Python, and iOS (Swift) to build
+        elegant, testable systems with real-world impact.
+      </p>
+
+      <a class="cta" href="projects.html">See My Work</a>
+
+      <!-- subtle credibility strip -->
+      <ul class="cred">
+        <li>Talend · Oracle · MySQL/PL-SQL</li>
+        <li>PHP · Python · C#/.NET</li>
+        <li>iOS (Swift, CoreML) · Tailwind</li>
+      </ul>
+    </div>
+
+    <!-- decorative shapes -->
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div id="featured" class="grid"></div>
+  </section>
+
+  <section class="section alt">
+    <h2 class="section-title">Latest on GitHub</h2>
+    <div id="github" class="grid"></div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Shaillaja Ravi ·
+      <a href="mailto:shaillajaravi@gmail.com">Email</a> ·
+      <a href="https://github.com/Shaillaja" target="_blank" rel="noreferrer">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/shaillaja-ravi-9ab0642a9/" target="_blank" rel="noreferrer">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script>
+    // tiny enhancement for mobile nav without extra files
+    const btn = document.querySelector('.menu-btn');
+    const links = document.querySelector('.links');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const open = links.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

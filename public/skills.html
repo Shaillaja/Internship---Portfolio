@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Skills · Shaillaja</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <script defer src="js/skills.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="brand">SR</a>
+    <div class="links">
+      <a href="projects.html">Projects</a>
+      <a class="active" href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="section">
+    <h1 class="section-title">Skills & Experience</h1>
+
+    <!-- Toolbar -->
+    <div class="skills-toolbar">
+      <input id="skillSearch" class="search" placeholder="Search skills… (e.g., Java, Tailwind, Flask)" />
+      <div class="filters">
+        <button class="active" data-cat="all">All</button>
+        <button data-cat="frontend">Frontend</button>
+        <button data-cat="backend">Backend</button>
+        <button data-cat="databases">Databases</button>
+        <button data-cat="tools">Tools</button>
+      </div>
+      <a class="cta" href="Shaillaja-Ravi-Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+    </div>
+
+    <!-- Skills grid -->
+    <div id="skillsGrid" class="skills-grid"></div>
+
+    <!-- Timeline -->
+    <h2 style="margin-top:2rem" class="section-title">Experience Timeline</h2>
+    <ol class="timeline pretty">
+      <li>
+        <div>
+          <h3>Inbound Call Agent — IO Solutions</h3>
+          <p class="meta">2024—present · Customer care</p>
+          <p class="muted">Soft-skills, ticketing workflows, empathy at scale.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Oracle Programmer — AG Office</h3>
+          <p class="meta">2021—2023</p>
+          <p class="muted">Reports & Forms, SQL/PL-SQL, DB Administration.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Talend ETL Developer — Cognizant </h3>
+          <p class="meta">2020</p>
+          <p class="muted">ETL pipelines, agile methodologies, data quality checks, delivery with cross-team partners.</p>
+        </div>
+      </li>
+    </ol>
+  </main>
+</body>
+</html>

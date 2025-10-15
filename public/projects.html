@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Projects · Shaillaja</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <script defer src="js/projects.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="brand">SR</a>
+    <div class="links">
+      <a class="active" href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="section">
+    <h1>Projects</h1>
+    <p class="muted">Explore my end-to-end work across desktop, web, and mobile.</p>
+    <div class="filmwrap">
+  <button class="film-btn prev" aria-label="Scroll left">‹</button>
+  <div id="projects" class="film"></div>
+  <button class="film-btn next" aria-label="Scroll right">›</button>
+</div>
+
+    <dialog id="detail">
+      <article id="detailBody"></article>
+      <button id="closeDlg">Close</button>
+    </dialog>
+  </main>
+
+  <script>
+    // simple dialog close
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("closeDlg").onclick =
+        () => document.getElementById("detail").close();
+    });
+  </script>
+</body>
+</html>

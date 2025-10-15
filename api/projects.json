@@ -1,0 +1,44 @@
+[
+  {
+    "id": "retechx",
+    "title": "ReTechX – Electronics Re-commerce (PHP)",
+    "blurb": "Buy/sell used electronics with dynamic condition forms, price estimation, appointment booking, and admin CRUD. MySQL backend, auth, and responsive UI.",
+    "tech": ["PHP","MySQL","XAMPP","CRUD","Auth","Bootstrap/Tailwind"],
+    "links": { "github": "", "live": "" }
+  },
+  {
+    "id": "colortone",
+    "title": "ColorTone – Smart Outfit Color Advisor (iOS)",
+    "blurb": "iOS app that predicts skin tone and suggests flattering outfit colors. Clean UIKit flow with CoreML inference; weather-aware color picks; AR try-on planned.",
+    "tech": ["Swift","UIKit","CoreML","Vision","Weather API","ARKit (planned)"],
+    "links": { "github": "", "live": "" }
+  },
+  {
+    "id": "parcelpro",
+    "title": "Parcel Inventory System Pro (Curiorio)",
+    "blurb": "JSON-driven parcel tracking & inventory with auth, CRUD, responsive Tailwind UI, and smooth animations.",
+    "tech": ["Java 17","Jakarta Servlet 6","JSTL 3","Tomcat 10","Tailwind"],
+    "links": { "github": "", "live": "" }
+  },
+  {
+    "id": "remax",
+    "title": "Remax Administration System",
+    "blurb": "3-tier real-estate admin: employees, clients, houses; ADO.NET CRUD; role-based access; themed MDI UI.",
+    "tech": ["C#","WinForms","ADO.NET","OOP","Access"],
+    "links": { "github": "", "live": "" }
+  },
+  {
+    "id": "desktop-utility",
+    "title": "Multi-Functional Desktop Utility",
+    "blurb": "Windows desktop app with Lotto Max/649, IP Validator, currency/temp conversion, calculator; heavy file I/O and regex.",
+    "tech": ["C#",".NET","WinForms","OOP","Regex","File I/O"],
+    "links": { "github": "", "live": "" }
+  },
+  {
+    "id": "password-manager",
+    "title": "Password Manager – Secure Credential Vault",
+    "blurb": "Generates, encrypts (Fernet AES), stores, and retrieves passwords; tabbed Tkinter UI with search/delete.",
+    "tech": ["Python","Tkinter","SQLite3","cryptography.fernet"],
+    "links": { "github": "", "live": "" }
+  }
+]
